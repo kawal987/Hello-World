@@ -1,0 +1,49 @@
+.mainjJwelery{
+    width: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    /* background-color: red; */
+}
+.subJewelery{
+    width: 80%;
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    justify-content: center;
+    column-gap: 40px;
+    /* background-color: rgb(25, 211, 149); */
+    row-gap: 40px;
+
+}
+.jeweleryCards{
+    /* background-color:red; */
+    border: 1px solid rgb(155, 153, 153);
+    border-radius: 10px;
+    box-shadow: inset 3px 3px 5px  rgb(207, 204, 204) , 3px 3px 5px  rgb(207, 204, 204);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+}
+.detailsJewelery{
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.categoryJewelery{
+    font-weight: bold;
+    font-size: 20px;
+}
+.imgJewelery{
+    width: 40%;
+    height: 50%;
+
+}

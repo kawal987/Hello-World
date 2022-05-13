@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.section {
+  width: 100%;
+}
+.body {
+  /* background: linear-gradient(90deg, rgb(158, 114, 230) 0% ,  rgb(158, 114, 230) 30%,rgb(229, 161, 248) 30%, rgb(229, 161, 248) 100% ); */
+  width: 100%;
+  /* background-color: #03a9f5; */
+  /* display: flex; */
+}
+.contactUs {
+  position: relative;
+  width: 100%;
+  padding: 40px 100px;
+}
+.contactUs .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+.contactUs .title h2 {
+  color: #fff;
+  font-weight: 500;
+}
+
+.form {
+  grid-area: form;
+
+}
+.info {
+  grid-area: info;
+}
+
+.map {
+  grid-area: map;
+}
+.contact {
+  padding: 30px;
+  background-color: #fff;
+  box-shadow: 0 5px 35px rgba(0, 0, 0, 0.15);
+}
+.box {
+  position: relative;
+  display: grid;
+  grid-template-columns: 2fr  ;
+  grid-template-rows: 5fr   ;
+  grid-template-areas:
+    "form info"
+    "form app"
+    "form map"
+    ;
+  
+  column-gap: 10px;
+  row-gap: 0px;
+
+  /* margin-top: 20px; */
+}
+.contact h3 {
+  /* color: rgb(158, 114, 230); */
+  font-weight: 1.4em;
+  margin-bottom: 10px;
+}
+/* form */
+.formBox {
+  position: relative;
+  width: 100%;
+}
+.formBox .row50 {
+  display: flex;
+  gap: 20px;
+}
+.inputBox {
+  display: flex;
+  flex-direction: column;
+  
+  margin-bottom: 10px;
+  width: 100%;
+}
+.formBox .row50 .inputBox {
+  width: 100%;
+}
+.inputBox span {
+  /* color:rgb(158, 114, 230); */
+  /* margin-top: 10px; */
+  background-color: #fff;
+  margin-bottom: -10px;
+  font-weight: 500;
+  z-index: 2;
+  width: max-content;
+  padding: 0 5px 0 5px;
+  margin-left: 15px;
+}
+.inputBox input {
+  padding: 10px;
+  font-size: 1.1em;
+  outline: none;
+  border: 1px solid #333;
+  border-radius: 10px;
+}
+.inputBox textarea {
+  padding: 10px;
+  font-size: 1.1em;
+  outline: none;
+  border: 1px solid #333;
+  resize: none;
+  min-height: 220px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  /* width: 100%; */
+}
+.inputBox button {
+  /* background:rgb(158, 114, 230) ; */
+  color: black;
+  border: 1px solid black;
+  border-radius: 15px;
+  /* border: none; */
+  font-size: 1.1em;
+  max-width: 120px;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 14px 15px;
+}
+.inputBox ::placeholder {
+  color: rgb(185, 184, 184);
+  margin-left: 5px;
+  padding-left: 8px;
+}
+/* .info{
+        background: rgb(158, 114, 230);
+    } */
+/* .info h3{
+        color: rgb(158, 104, 124);
+    } */
+.info .infoBox div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.info .infoBox div span {
+  min-width: 40px;
+  height: 40px;
+  /* color:rgb(229, 161, 248); */
+  /* background: rgb(229, 161, 248); */
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  font-size: 1.5em;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.info .infoBox div p {
+  /* color:rgb(229, 161, 248); */
+  font-size: 1.1em;
+}
+.info .infoBox div a {
+  /* color:rgb(207, 108, 235); */
+  text-decoration: none;
+  font-size: 1.1em;
+}
+.sci {
+  /* margin-top: 20px; */
+  display: flex;
+}
+.sci li {
+  list-style: none;
+  margin-right: 15px;
+}
+.sci li a {
+  font-size: 2em;
+  /* color: rgb(207, 108, 235); */
+}
+.sci li a:hover {
+  color: gray;
+}

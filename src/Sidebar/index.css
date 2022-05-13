@@ -1,0 +1,40 @@
+.buttonStyle {
+  background-color: var(--black);
+  border: none;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  margin: 0.5rem 0 0 0.5rem;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+}
+
+.buttonStyle::before,
+::after {
+  content: "";
+  background-color: var(--white);
+  height: 2px;
+  width: 1rem;
+  position: absolute;
+}
+
+.buttonStyle::before {
+  top: 1rem;
+  /* transform: ${props}; */
+}
+
+.buttonStyle::after {
+  top: 1.5rem;
+}
+
+/* .buttonStyle ::before,::after{
+    content:"",
+    background-color: var(--white);
+    height: 2px;
+    width: 1rem;
+} */

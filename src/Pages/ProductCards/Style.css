@@ -1,0 +1,120 @@
+.CardMain{
+    width: 100%;
+  display: flex;
+  flex-direction: column;
+ 
+    /* justify-content: center; */
+  }
+  /* .fa{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    margin-bottom: 30px;
+    /* background-color: #000; */
+    
+  /* }  */
+  
+  .grid{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    column-gap: 10px;
+    /* background-color: aquamarine; */
+   row-gap: 10px;
+   
+  }
+  .grid-items{
+    border: 1px solid rgb(155, 153, 153);
+    border-radius: 10px;
+    box-shadow: inset 3px 3px 5px  rgb(207, 204, 204) , 3px 3px 5px  rgb(207, 204, 204);
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 50px;
+  padding-left: 50px;
+   /* margin-bottom: 10px; */
+  }
+  .image{
+    width: 150px;
+    height: 230px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+  }
+  .category{
+    margin-bottom: 4px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(71, 70, 70);
+    /* text-shadow: 2px 2px 4px rgb(173, 171, 171); */
+  }
+  .Product-name{
+    margin-bottom: 12px;
+    font-size: 15px;
+    color:rgb(71, 70, 70) ;
+    font-weight: inherit;
+    /* text-shadow: 2px 2px 3px gray; */
+  }
+  .product-detail{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .price{
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .price-del{
+  font-weight: normal;
+  font-size: 15px;
+  }
+  @media only screen and (max-width:1024px)  {
+    .grid{
+      
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      /* justify-content: center; */
+      column-gap: 10px; 
+      /* background-color: aquamarine; */
+     row-gap: 10px;
+     
+    }
+   
+  
+  }
+  @media only screen and (max-width:768px)  {
+    .grid{
+      
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      /* justify-content: center; */
+      column-gap: 10px;
+      /* background-color: aquamarine; */
+     row-gap: 10px;
+     
+    }
+    .grid-items{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+  @media only screen and (max-width:425px)  {
+    .grid{
+      
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      justify-content: center;
+      column-gap: 10px;
+      /* background-color: aquamarine; */
+     row-gap: 10px;
+     
+    }
+  }
+  
+  

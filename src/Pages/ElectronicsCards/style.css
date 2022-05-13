@@ -1,0 +1,48 @@
+.main-Electronic{
+    width: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.img-electronic{
+    width: 60%;
+height: 50%;
+
+}
+.sub-electronic{
+width: 80%;
+display: grid;
+grid-template-columns: auto auto auto ;
+justify-content: center;
+column-gap: 40px;
+/* background-color: rgb(25, 211, 149); */
+row-gap: 40px;
+
+}
+.electronic-cards{
+    /* background-color:rgb(195, 192, 192); */
+    border: 1px solid rgb(155, 153, 153);
+    border-radius: 10px;
+    box-shadow: inset 3px 3px 5px  rgb(207, 204, 204) , 3px 3px 5px  rgb(207, 204, 204);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+}
+.details{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.category{
+    font-weight: bold;
+    font-size: 20px;
+}

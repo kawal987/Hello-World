@@ -1,0 +1,124 @@
+.section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #111;
+    margin-top: 90px;
+  }
+  
+  .main{
+    background-color: #111; 
+    width: 90%;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 0 20px 0;
+    /* margin-top: 40px; */
+  }
+  .first{
+    width: 20%;
+    /* background-color: antiquewhite;  */
+    
+  padding: 10px;}
+  .second{
+    width: 30%;
+    /* background-color: aquamarine; 
+    /* padding-top: 26px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    margin-top: -22px;
+  }
+  
+  .third{
+    width: 20%;
+     /* background-color: burlywood;  */
+    padding: 10px;
+  }
+  .heading1{
+    color: white;
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .heading2{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 42px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .heading3{
+    color: white;
+    margin-bottom: 39px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .list{
+    color: #989898;
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    margin-bottom: 17px;
+    font-size: 15px;
+  }
+  .list1{
+    margin-right: 50px;
+    /* margin-bottom: 20px; */
+    line-height: 23px;
+  }
+  .list2{
+    margin-right: 50px;
+    margin-bottom: 15px;
+  }
+  .fafa{
+    display: flex;
+    color:#989898;
+    margin-bottom: 39px;
+    justify-content: center;
+    width: 100%;
+  }
+  .footericon{
+    border: 1px solid #989898;
+    border-radius: 100%;
+    padding: 10px;
+    margin-right: 8px;
+  }
+  .cards{
+    display: flex;
+    margin-bottom: 39px;
+    /* margin-top: 30px; */
+    width: 100%;
+    justify-content: center;
+   
+  }
+  
+  .card{
+    font-size: 35px;
+    margin-right: 20px;
+  color: #989898;
+    justify-content: center;
+    display: flex;
+    
+  }
+  .para{
+    font-size: 14px;
+    color: #989898;
+    display: flex;
+    justify-content: center;
+    /* margin-bottom: 10px; */
+    /* margin-top: 10px; */
+  }
+  .para2{
+    font-size: 14px;
+    color: #989898;
+    /* margin-top: -10px; */
+  }
+  img{
+    width: 98%;
+    
+  } 
+  
